@@ -1,0 +1,77 @@
+{
+  "name": "mcs-in-viewport",
+  "version": "0.0.0",
+  "description": "check if items are in viewport and apply callback events for entering from and leaving to four directions.",
+  "scripts": {
+    "build": "webpack --config webpack-prod.config.js --colors",
+    "dev": "webpack-dev-server --open --config webpack-dev.config.js --watch --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macsim1982/scroll-ios.git"
+  },
+  "keywords": [
+    "webpack",
+    "startkit",
+    "frontend",
+    "es6",
+    "javascript",
+    "webdev"
+  ],
+  "author": "webkid.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macsim1982/scroll-ios/issues"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "impliedStrict": true,
+      "ecmaFeatures": {
+        "jsx": "h"
+      }
+    },
+    "rules": {
+      "semi": 2
+    }
+  },
+  "homepage": "https://github.com/macsim1982/scroll-ios#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-transform-react-jsx": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "acorn": "^6.0.4",
+    "atob": ">=2.1.2",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^0.1.19",
+    "compass": "^0.1.1",
+    "cryptiles": "^4.1.3",
+    "css-loader": "^1.0.1",
+    "debug": "^4.1.0",
+    "eslint": "^5.8.0",
+    "eslint-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "hoek": "^6.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.11",
+    "macaddress": "^0.2.9",
+    "node-sass": "^4.10.0",
+    "randomatic": ">=3.1.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "url-parse": "^1.4.4",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
